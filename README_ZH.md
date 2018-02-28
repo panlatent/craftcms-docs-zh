@@ -26,7 +26,7 @@ Craft 3 文档
 
 ## 核心概念
 
-- [板块和条目](zh/sections-and-entries.md)
+- [版块和条目](zh/sections-and-entries.md)
 - [字段](zh/fields.md)
 - [模板](zh/templates.md)
   - [Twig 入门](zh/twig-primer.md)

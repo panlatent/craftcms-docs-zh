@@ -1,13 +1,13 @@
-# About Craft CMS
+# 关于 Craft CMS
 
-Craft is a content-first CMS that aims to make life enjoyable for developers and content managers alike. It does so by offering developers a high level of flexibility, both in terms of content modeling and the front-end views, while also giving content managers an intuitive authoring experience.
+Craft是内容优先的内容管理系统，旨在为开发者和内容管理者都享受生活的乐趣。它通过内容建模和前端视图, 为开发人员提供高水平的灵活性，同时也为内容管理者提供直观的创作体验。
 
-## What it’s For
+## 它的用途
 
-We made Craft for bespoke websites and mobile applications, where strong control over branding and content types are a priority. We optimized it for creating experiences from scratch, rather than modifying existing themes.
+我们为定制网站和移动应用程序制作了 Craft，在这些网站和移动应用程序中，对品牌和内容类型的强大控制是优先考虑的事项。我们从头优化创建体验，而不是去修改现有主题。
 
-## General Tech Specs
+## 通用技术规格
 
-Craft is a self-hosted PHP application built on [Yii](http://www.yiiframework.com/). You don’t need to know PHP or Yii to use it unless you intend to write your own plugins. 
+Craft 是一个基于 [Yii](http://www.yiiframework.com/) 的自主 PHP 应用程序. 除非您打算编写自己的插件，否则您不需要知道 PHP 或 Yii 就可以使用它。
 
-For more information on the technical requirements of Craft, [see the Requirements section](requirements.md).
+有关 Craft 技术要求的更多信息，[请参阅要求部分](requirements.md).

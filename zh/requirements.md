@@ -1,19 +1,19 @@
-# Server Requirements
+# 服务器要求
 
-These are the requirements to successfully install and properly run Craft.
+这些是成功安装和正确运行 Craft 的要求。
 
-## Checking Your Server
+## 检查您的服务器
 
-Before you install Craft, it's important that you check that your server will meet the requirements. Review the requirements below or use the [Craft Server Check](https://github.com/craftcms/server-check) script to quickly check whether you meet the requirements.
+在安装 Craft 之前，请务必检查您的服务器是否符合要求。查看下面的要求或使用 [Craft Server Check](https://github.com/craftcms/server-check) 脚本快速检查您是否符合要求。
 
-_Not in charge of the server? Send a link to this page to your server administrator._
+_如果你不负责服务器，请将链接发送到您的服务器管理员。_
 
-## Server Requirements
+## 服务器要求
 
-Craft requires the following:
+Craft 要求如下：
 
 * PHP 7.0+
-* MySQL 5.5+ (with InnoDB) or PostgreSQL 9.5+
+* MySQL 5.5+ (含 InnoDB) or PostgreSQL 9.5+
 * A web server (Apache, Nginx, IIS)
 * A minimum of 256MB of memory allocated to PHP
 * A minimum of 200MB of free disk space

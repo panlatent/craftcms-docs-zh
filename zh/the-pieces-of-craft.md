@@ -1,52 +1,52 @@
-The Pieces of Craft
+Craft 组成部分
 ===================
 
-Before you get started using Craft CMS to build your website, let's first talk about the pieces of Craft. These are a large components that you'll use to implement your website's content.
+在您开始使用 Craft CMS 构建您的网站之前，我们先来谈谈 Craft 的各个部分。这些是您用来实现网站内容的大型组件。
 
-## Sections
+## 版块 Sections
 
-Sections are how we organize our content or data in Craft. Let's say you have a cocktail lounge website with various types of content: news, events, and recipes.
+在 Craft 中， Sections 是我们组织的内容或数据。假设你有一个鸡尾酒休息室网站，里面有各种类型的内容：新闻，事件和食谱。
 
-There are three different Section Types in Craft: Channels, Structures, and Singles. Each of these types allows you to store your content with a slightly different set of features.
+在 Craft 中有三种不同的版块类型：通道（ Channels ），结构（ Structures ）和单页（ Single ）。每一种类型都允许您使用一组稍微不同的特性来存储您的内容。
 
-To review the specifics of each type, check out the [Sections and Entries](sections-and-entries.md) page of this documentation.
+要查看每种类型的细节，请查看本文档的 [版块和条目](sections-and-entries.md) 页面。
 
-## Entries
+## 条目 Entries
 
-Inside of the Sections are Entries. Entries are your individual pieces of content (like a cocktail recipe). A section can have one or many entries. The entries are typically inputted via the Entry Form in the Craft Control Panel.
+版块的内部由条目组成。条目是你的个人拼装的（如鸡尾酒配方）。一个版块可以有一个或多个条目。这些条目通常通过 Craft 控制面板中的条目表格录入。
 
-Each entry can only belong to one Section.
+每个条目只能属于一个版块。
 
-## Fields
+## 字段 Fields
 
-We use Fields in Craft to define the different content types that are stored in an Entry. Craft provides some fields automatically (Title, Slug, Post Date, and more) but we can also define our own fields so we can mold Craft _around_ our content.
+我们使用 Craf 中的字段来定义存储在条目中的不同内容类型。Craft 自动提供了一些字段（标题，Slug，发布日期等），但我们也可以定义自己的字段，以便我们可以 _围绕_ 我们的内容塑造 Craft 。
 
-Let's say we are working on our cocktail lounge website and want to build out the Recipes section for the house drinks. 
+假设我们正在致力于我们的鸡尾酒休息室网站，并希望为食谱饮料部分制作食谱部分。
 
-We've already created the Section called "Recipes" to hold our entries. Now we need to create the fields to hold our content within that Section.
+我们已经创建了一个名为“食谱”的版块来保存我们的条目。现在我们需要在这个版块中创建这些字段来保存我们的内容。
 
-Our recipes are pretty simple but we do need to define some Fields:
+我们的食谱非常简单，但我们需要定义一些字段：
 
-* Recipe Image
-* Recipe Snapshot (short description)
-* Recipe Content (ingredients and instructions)
+* 食谱图片 Recipe Image
+* 食谱快照 Recipe Snapshot（简短描述）
+* 食谱内容 Recipe Content（配料和说明）
 
-We could get even more detailed with the Recipe Content but this will be fine for now.
+我们可以通过食谱内容获得更详细的信息，但现在这样就足够了。
 
 
-## Templates
+## 模板 Templates
 
-We use Templates in Craft to output our website design and content. You can think of a template as a HTML document.
+我们使用 Craft 中的模板来输出我们的网站设计和内容。您可以将模板视为HTML文档。
 
-Craft is agnostic to your website's layout. It doesn't use themes or impose any content layout or structure. You can use your own HTML/CSS/JS layout. 
+Craft 是不可能知道你的网站的布局。它不使用主题或强加任何内容布局或结构。你可以使用你自己的 HTML / CSS / JS 布局。
 
-Craft uses the [Twig templating engine](https://twig.symfony.com) to make it really easy for you to bring the website templates to life using the data you’ve saved in Craft.
+Craft 使用 [Twig 模板引擎](https://twig.symfony.com) 使你可以轻松地使用你在 Craft中保存的数据，并使网站模板生动起来。
 
-Twig is fantastic because it is flexible and fast. The Twig website has a solid overview of what Twig is and how you can use it in your HTML templates.
+Twig 很棒，因为它灵活而快速。Twig 的网站对 Twig 是什么以及如何在 HTML 模板中使用 Twig 有一个很好的概述。
 
-Twig isn’t specific to Craft; it’s developed and maintained by the Symfony project.
+Twig 不是特定用与 Craft 的模板; 它由 Symfony 项目开发和维护的。
 
-## More Information
+## 更多信息
 
-For more depth on each piece, click through to the Core Concepts section of the documentation.
+要获得每个部分的更多信息，请点击文档的核心概念部分。
 

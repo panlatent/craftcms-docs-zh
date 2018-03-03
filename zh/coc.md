@@ -1,31 +1,31 @@
-# Code of Conduct
+# 行为准则
 
-Like the technical community as a whole, the Craft team and community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the mission - including mentorship, teaching, and connecting people.
+像所有的技术社区一样，Craft 团队和社区由来自世界各地的专业人士和志愿者组成，致力于各个方面的任务 - 包括指导，教学和联络用户。
 
-Diversity is one of our strengths. With that, challenges will arise that can lead to communication issues and unhappiness. To that end, we have a few ground rules that we ask people to adhere to. This code applies equally to founders, mentors and those seeking help and guidance.
+多样性我们的优势之一。因此，将会出现可能导致沟通问题和不快乐的挑战。为此，我们有几条要求人们遵守的基本规则。本守则同样适用于创始人，指导者和寻求帮助和指导的人员。
 
-This isn’t an exhaustive list of things that you can’t do. Rather, take it in the spirit in which it’s intended - a guide to make it easier to enrich all of us and the technical communities in which we participate.
+这不是一个你无法做的事情的详尽列表。而是你要按照它所打算的精神加以实施 - 这是一个指导，让我们更容易得丰富我们以及我们参与的技术社区。
 
-This code of conduct applies to all spaces used by the Craft community for communication. This includes Craft Slack, Craft CMS Stack Exchange, GitHub, Twitter, Facebook, meetups, conferences, and any other relevant forums. Violations of this code outside of any spaces managed by the Craft team will still affect a person’s ability to participate within them.
+本行为准则适用于用于所有 Craft 社区的交流空间。这包括Craft Slack，Craft CMS Stack Exchange，GitHub，Twitter，Facebook，聚会，会议以及任何其他相关论坛。在 Craft 团队管理的任何空间之外违反此规范仍然会影响个人参与其中的能力。
 
-If you believe someone is violating the code of conduct, we ask that you report it by emailing [support@craftcms.com](mailto:support@craftcms.com). We take all reports seriously, and your identity will remain confidential.
+如果您认为有人违反了行为准则，我们会要求您通过电子邮件 [support@craftcms.com](mailto:support@craftcms.com) 报告。我们认真对待所有报告并将您的身份保密。
 
-- **Be friendly and patient.**
-- **Be welcoming.** We strive to be a community that welcomes and supports people of all backgrounds and identities. This includes, but is not limited to members of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
-- **Be considerate.** Your work will be used by other people, and you in turn will depend on the work of others. Any decision you take will affect users and colleagues, and you should take those consequences into account when making decisions. Remember that we’re a world-wide community, so you might not be communicating in someone else’s primary language.
-- **Be respectful.** Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners. We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack. It’s important to remember that a community where people feel uncomfortable or threatened is not a productive one. Members of the Craft community should be respectful when dealing with other members as well as with people outside the Craft community.
-- **Be careful in the words that you choose.** We are a community of professionals, and we conduct ourselves professionally. Be kind to others. Do not insult or put down other participants. Harassment and other exclusionary behavior aren’t acceptable. This includes, but is not limited to:
+- **要友好耐心。**
+- **热情好客。** 我们努力成为一个欢迎和支持各种背景和身份的人的社区。这包括但不限于任何种族，民族，文化，国籍，肤色，移民身份，社会和经济阶层，教育程度，性别，性取向，性别认同和表达，年龄，身材，家庭状况，政治信仰，宗教信仰和身心能力。
+- **体贴。** 你的工作将被其他人使用，而你又将取决于他人的工作。您做出的任何决定都会影响用户和同事，并且在作出决策时应将这些后果考虑在内。请记住，我们是一个全球性的社区，所以你可能不会用别人的主要语言进行沟通。
+- **尊重。** 并非所有的东西都会被一致认同，但是分歧并不是不良行为和不礼貌的借口。我们可能都会经历一些挫折，但我们不能让这种挫折变成个人攻击。重要的是要记住：一个人们感到不舒服或受到威胁的社区不是一个有生产力的社区。与其他会员以及 Craft 社区以外的人交往时，Craft 团体的成员应该是尊重的。
+- **小心你选择的用语。** 我们是一个专业人士社区，我们专业地开展工作。善待他人。不要侮辱或放弃其他参与者。骚扰和其他排斥行为是不可接受的。这包括但不限于：
 
-  - Violent threats or language directed against another person.
-  - Discriminatory jokes and language.
-  - Exclusionary gendered language (guys, gentlemen, bros, etc).
-  - Posting sexually explicit or violent material.
-  - Posting (or threatening to post) other people’s personally identifying information ("doxing").
-  - Personal insults, especially those using racist or sexist terms.
-  - Unwelcome sexual attention.
-  - Advocating for, or encouraging, any of the above behavior.
-  - Repeated harassment of others. In general, if someone asks you to stop, then stop.
+  - 暴力威胁或针对他人的语言。
+  - 歧视性的笑话和语言。
+  - 排除性别语言（男士们，先生们，兄弟等）。
+  - 发布色情或暴力材料。
+  - 发布（或威胁发布）他人的个人身份信息（“doxing”）。
+  - 个人侮辱，特别是那些使用种族主义或性别歧视的术语。
+  - 不受欢迎的性关注。
+  - 倡导或鼓励上述任何行为。
+  - 反复骚扰他人。一般来说，如果有人要求你停下来，你就应该停下来。
 
-- **When we disagree, try to understand why.** Disagreements, both social and technical, happen all the time and Craft is no exception. It is important that we resolve disagreements and differing views constructively. Remember that we’re different. The strength of Craft comes from its varied community, people from a wide range of backgrounds. Different people have different perspectives on issues. Being unable to understand why someone holds a viewpoint doesn’t mean that they’re wrong. Don’t forget that it is human to err and blaming each other doesn’t get us anywhere. Instead, focus on helping to resolve issues and learning from mistakes.
+- **当我们不同意时，试着理解为什么。** 社会和技术上的分歧始终在发生，Craft也不例外。我们建设性地解决分歧和不同观点非常重要。请记住，我们不一样。Craft 的整体实力来自于不同的社区，来自不同背景的人。不同的人对问题有不同的观点。不理解为什么有人持有观点并不意味着他们错了。不要忘记，这是人为的犯错，责怪对方并没有让我们得到什么。相反，要专注于帮助解决问题和从错误中学习。
 
-*Credits for the sources and inspiration of this code of conduct go to the [Django Project](https://www.djangoproject.com/conduct/) and many others.*
+*本行为守则的来源和灵感来源于 [Django 项目](https://www.djangoproject.com/conduct/) 和其他许多项目。*

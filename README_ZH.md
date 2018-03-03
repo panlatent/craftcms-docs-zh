@@ -38,7 +38,7 @@ Craft 3 文档
 - [关系](zh/relations.md)
 - [路由](zh/routing.md)
 - [搜索](zh/searching.md)
-- [点战](zh/sites.md)
+- [点站](zh/sites.md)
 - [本地化](zh/localization.md)
 - [元素查询](zh/element-queries.md)
 - [内容迁移](zh/content-migrations.md)

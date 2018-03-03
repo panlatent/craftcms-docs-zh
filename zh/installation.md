@@ -1,48 +1,48 @@
-# Installation Instructions
+# 安装说明
 
-- [0. Introduction](#0-introduction)
-- [1. Install Composer](#1-install-composer)
-- [2. Create a New Craft Project](#2-create-a-new-craft-project)
-- [3. Set up the Database](#3-set-up-the-database)
-- [4. Set up the Web Server](#4-set-up-the-web-server)
+- [0. 引言](#0-introduction)
+- [1. 安装 Composer](#1-install-composer)
+- [2. 创建一个新的 Craft 项目](#2-create-a-new-craft-project)
+- [3. 设置数据库](#3-set-up-the-database)
+- [4. 设置 Web 服务器](#4-set-up-the-web-server)
 
-## 0. Introduction
+## 0. 引言
 
-Craft 3 is available as a [Composer] package. If you’re unfamiliar with Composer, it’s a package manager (like npm) that attempts to make installing and updating PHP libraries easy via terminal commands.
+Craft 3 是一个 [Composer] 包. 如果您不熟悉 Composer, 那么它是一个包管理器（如 npm），它试图通过终端命令轻松的安装和更新 PHP 库。
 
-> {note} An alternate installation method that forgoes Composer is in the works, and should be ready by the time Craft 3.0 GA is released. It’s still a good idea to start familiarizing yourself with Composer though!
+> {note} 另一种放弃 Composer 的安装方法正在开发中，在 Craft 3.0 GA 发布时应该准备好了。尽管这样，开始熟悉 Composer 仍然是一个好主意！
 
-Craft’s Composer support has two parts:
+Craft 的 Composer 支持有两个部分：
 
-1. **[`craftcms/cms`]** – This is the Composer package that contains all of Craft’s source code.
-2. **[`craftcms/craft`]** – This is a Composer “project” that can be used as a starting point for new Craft projects.
+1. **[`craftcms/cms`]** – 这是包含 Craft 所有源代码的 Composer 软件包。
+2. **[`craftcms/craft`]** –  这是一个 Composer “项目”，可以作为新的 Craft 项目的起点。
 
-## 1. Install Composer
+## 1. 安装 Composer
 
-You should be running Composer 1.3.0 or later. You can find out your installed version of Composer (if any) by opening your terminal running the following command:
+您应该运行 Composer 1.3.0 或更高版本。您可以通过运行以下命令打开您的终端来找到您安装的 Composer 版本（如果有的话）：
 
     composer -V
 
-If that outputs an error saying `composer` is not found or not recognized, then Composer isn’t installed. Follow Composer’s instructions to install it:
+如果输出错误，说 composer 没有找到或未被识别，则 Composer 未安装。按照 Composer 的说明进行安装：
 
-  - [macOS/Linux/Unix instructions] *(install it globally)*
-  - [Windows instructions]
+  - [macOS/Linux/Unix 说明] *（全局安装）*
+  - [Windows 说明]
 
-If it outputs a version number, but it’s less than `1.3.0`, run the following command to update it:
+如果输出的版本号小于 `1.3.0`，则运行以下命令进行更新：
 
     composer self-update
 
-## 2. Create a New Craft Project
+## 2. 创建一个新的 Craft 项目
 
-To create a new Craft project, run this command (substituting `PATH` with the path where Composer should create the project):
+要创建一个新的 Craft 项目，请运行以下命令（`PATH` 用 Composer 创建项目的路径代替）：
 
     composer create-project -s RC craftcms/craft PATH
 
-Note: If Composer complains that your system doesn’t have PHP 7 installed, but you know it’s not an issue because Craft will run with a different PHP install (e.g. through MAMP or Vagrant), use the `--ignore-platform-reqs` flag.
+注意：如果 Composer 报告说你的系统没有安装 PHP 7，但你知道这不是问题，比如 Craft 使用不同的 PHP（例如通过 MAMP 或 Vagrant）运行，请使用该 `--ignore-platform-reqs` 选项。
 
-Composer will take a few minutes to install everything.
+Composer 将花几分钟安装一切。
 
-Once it’s finished, your project directory should have a file structure like this:
+一旦完成，你的项目目录应该有这样的文件结构：
 
 ```
 config/...
@@ -59,40 +59,39 @@ LICENSE.md
 README.md
 ```
 
-See [Directory Structure](directory-structure.md) for information on these directories and files.
+有关这些目录和文件的信息，请参阅 [目录结构](directory-structure.md)。
 
-## 3. Setting Up the Database
+## 3. 建立数据库
 
-Next up, you need to create a database for your Craft project. Craft 3 supports both MySQL 5.5+ and PostgreSQL 9.5+.
+接下来，您需要为您的Craft项目创建一个数据库。Craft 3 支持 MySQL 5.5+ 和 PostgreSQL 9.5+ 。
 
-If you’re given a choice, we recommend the following database settings in most cases:
+如果您已经选择，我们建议在大多数情况下使用以下数据库设置：
 
 - **MySQL**
-  - Default Character Set: `utf8`
-  - Default Collation: `utf8_unicode_ci`
+  - 默认字符集: `utf8`
+  - 默认排序规则: `utf8_unicode_ci`
 
 - **PostgreSQL**
-  - Character Set: `UTF8`
+  - 字符集: `UTF8`
 
-Once you create the database, you’ll need to configure your `.env` file with  the database connection settings. You can either edit the file manually, or run the `./craft setup` command from the root project directory in your terminal.
+创建数据库后，您需要配置文你的 `.env` 文件作为数据库连接设置。您可以手动编辑文件，也可以在终端的根目录下运行 `./craft setup` 命令。
 
-Note:  [PHP dotenv](https://github.com/vlucas/phpdotenv), which the `craftcms/craft` project comes with pre-installed, processes the `.env` file. The advantage of using PHP dotenv is that it offers a place to store sensitive information (like database connection settings) in a file that doesn’t get committed to your Git repository.
+注： 在 `craftcms/craft` 项目带有预安装的 [PHP dotenv](https://github.com/vlucas/phpdotenv) 来处理 `.env` 文件。使用 PHP dotenv 的优势在于它提供了一个可以将敏感信息（如数据库连接设置）存储在 Git 仓库之外的方式。
 
-## 4. Set up the Web Server
+## 4. 设置 Web 服务器
 
-Create a new web server to host your Craft project. Its document root should point to your public HTML folder. If you’re using Craft’s Composer [starter project](https://github.com/craftcms/craft), then it is the `web/` directory by default, but it can be renamed to anything you want as long as your web server is configured to point to it.
+创建一个新的 Web 服务器来托管您的 Craft 项目。它的文档根目录应指向您的公共 HTML 文件夹。如果您使用的是 Craft 的 Composer【开始项目](https://github.com/craftcms/craft)，那么默认情况下它的目录是 `web/` ，但只要您的 Web 服务器配置为指向该目录，就可以将其重命名为任何您想要的内容。
 
-If your web host already has a public HTML folder setup to for you that you cannot rename, then you can just copy the contents of Craft’s `web` folder to it and use your host’s default public HTML folder. 
+如果您的虚拟主机已经为您设置了一个公共 HTML 文件夹，在您无法重命名时，那么您可以将 Craft 的 `web` 文件夹的内容复制到该文件夹并使用您的主机的默认公共 HTML 文件夹。
 
-If you’re not using [MAMP](https://mamp.info) or another localhosting tool, you will probably need to update your `hosts` file, so your computer knows to route requests to your chosen host name to the local computer.
+如果您不使用 [MAMP](https://mamp.info) 或其他本地主机工具，则可能需要更新 hosts 文件，以便您的计算机知道将请求路由到本地计算机的所选主机名。
 
 - **macOS/Linux/Unix:** `/etc/hosts`
 - **Windows:** `\Windows\System32\drivers\etc\hosts`
 
-You can test whether you set everything up correctly by pointing your web browser to `http://HOSTNAME/index.php?p=admin` (substituting `HOSTNAME` with your new web server’s host name). 
+您可以通过将您的Web浏览器指向 `http://HOSTNAME/index.php?p=admin`（`HOSTNAME` 用您的新Web服务器的主机名替换）。
 
-If successful, you will get the Craft installation wizard. The wizard will take you through a couple setup screens, and then perform the installation of Craft.
-
+如果成功，您将会访问到 Craft 安装向导。该向导将带您通过数个安装配置页面，然后执行 Craft 的安装。
 
 [Composer]: https://getcomposer.org/
 [`craftcms/cms`]: https://github.com/craftcms/cms
